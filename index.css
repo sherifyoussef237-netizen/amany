@@ -1,0 +1,137 @@
+/* ==========================================
+   Pure Black & All-Electric-Blue Neon Glow Theme
+   ========================================== */
+
+/* إجبار الخلفية السوداء الخالصة */
+body, html {
+    background-color: #000000 !important;
+    color: #00d2ff !important;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    min-height: 100vh;
+}
+
+/* إجبار كل حرف ونصف في الموقع على اللون الأزرق المضيء مع الوميض والإشعاع */
+* {
+    color: #00d2ff !important;
+    text-shadow: 0 0 8px rgba(0, 210, 255, 0.7), 0 0 15px rgba(0, 210, 255, 0.5) !important;
+}
+
+/* ==========================================
+   Navbar & Navigation Links
+   ========================================== */
+.navbar {
+    background-color: #000000 !important;
+    border-bottom: 1px solid rgba(0, 210, 255, 0.3) !important;
+}
+
+.navbar-brand, .nav-link {
+    color: #00d2ff !important;
+    transition: all 0.3s ease;
+}
+
+.nav-link:hover, .nav-link.active {
+    color: #ffffffd2 !important; /* لون أبيض ناصع عند التمرير بالماوس مع وميض أزرق قوي */
+    text-shadow: 0 0 12px #00d2ff, 0 0 25px #00d2ff !important;
+}
+
+/* ==========================================
+   Buttons & Badges
+   ========================================== */
+.btn-info {
+    background-color: transparent !important;
+    border: 2px solid #00d2ff !important;
+    color: #00d2ff !important;
+    box-shadow: 0 0 15px rgba(0, 210, 255, 0.4) !important;
+    transition: all 0.3s ease;
+}
+
+.btn-info:hover {
+    background-color: #00d2ff !important;
+    color: #000000 !important;
+    text-shadow: none !important;
+    box-shadow: 0 0 25px rgba(0, 210, 255, 0.9) !important;
+}
+
+.btn-outline-light {
+    background-color: transparent !important;
+    border: 2px solid #00d2ff !important;
+    color: #00d2ff !important;
+    box-shadow: 0 0 15px rgba(0, 210, 255, 0.3) !important;
+}
+
+.btn-outline-light:hover {
+    background-color: #00d2ff !important;
+    color: #000000 !important;
+    text-shadow: none !important;
+}
+
+.badge-blue, .badge {
+    background-color: rgba(0, 210, 255, 0.1) !important;
+    color: #00d2ff !important;
+    border: 1px solid #00d2ff !important;
+    box-shadow: 0 0 10px rgba(0, 210, 255, 0.3) !important;
+}
+
+/* ==========================================
+   Cards & Sections
+   ========================================== */
+.hero-section {
+    background-color: #000000 !important;
+}
+
+.card-dark {
+    background-color: #050505 !important;
+    border: 1px solid #00d2ff !important;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(0, 210, 255, 0.2) !important;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-dark:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0 25px rgba(0, 210, 255, 0.6) !important;
+}
+
+/* ==========================================
+   Form Inputs (Contact Page)
+   ========================================== */
+.form-control {
+    background-color: #000000 !important;
+    color: #00d2ff !important;
+    border: 1px solid #00d2ff !important;
+    box-shadow: inset 0 0 8px rgba(0, 210, 255, 0.3) !important;
+}
+
+.form-control:focus {
+    background-color: #000000 !important;
+    color: #00d2ff !important;
+    border-color: #00d2ff !important;
+    box-shadow: 0 0 15px rgba(0, 210, 255, 0.8) !important;
+}
+
+.form-control::placeholder {
+    color: rgba(0, 210, 255, 0.5) !important;
+}
+
+/* ==========================================
+   Profile Image (Home Page - 360px & Electric Blue Glow)
+   ========================================== */
+.profile-image-container {
+    padding: 10px;
+}
+
+.profile-img {
+    width: 360px !important;
+    height: 360px !important;
+    max-width: 360px !important;
+    max-height: 360px !important;
+    object-fit: cover !important;
+    border: 5px solid #00d2ff !important;
+    box-shadow: 0 0 35px rgba(0, 210, 255, 0.8), inset 0 0 15px rgba(0, 210, 255, 0.5) !important;
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.profile-img:hover {
+    transform: scale(1.04);
+    box-shadow: 0 0 55px rgba(0, 210, 255, 1) !important;
+}
